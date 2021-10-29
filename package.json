@@ -1,0 +1,16 @@
+{
+  "name": "texture-tools",
+  "version": "1.0.0",
+  "description": "Texture tools program to help extract textures from images.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron  ."
+  },
+  "keywords": [],
+  "author": "Turkey Ot",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^15.3.0"
+  }
+}
